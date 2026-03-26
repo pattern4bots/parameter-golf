@@ -1,0 +1,12 @@
+{
+  "author": "Liora",
+  "github_id": "YOUR_GITHUB_USERNAME",
+  "val_bpb": 1.1231,
+  "val_loss": 1.8963,
+  "artifact_bytes": 15809288,
+  "train_time_seconds": 600,
+  "gpu_config": "8xH100 SXM",
+  "steps": 7104,
+  "seed": 1337,
+  "description": "Frequency-Weighted Embedding Quantization: Top 100 tokens (53% of text) get int8 precision, remaining 924 tokens get int6. Based on PR #549 stack."
+}
